@@ -1,0 +1,54 @@
+# =========================
+# Ketergantungan (Dependencies)
+# =========================
+/node_modules
+/.pnp
+.pnp.js
+
+# =========================
+# Hasil Build (Testing & Production)
+# =========================
+/coverage
+/build
+/dist
+/.next/
+/out
+
+# =========================
+# Log Files
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Environment Variables (SANGAT PENTING)
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Cache & Konfigurasi OS/Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Cache Tools & Framework
+# =========================
+.eslintcache
+.stylelintcache
+.prettiercache
+.parcel-cache
